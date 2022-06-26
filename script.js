@@ -80,6 +80,7 @@ const comma = () =>{
         newNumber = true;
         updateDisplay(display.textContent.concat(","));
     }else{
+        //"Arrumar virgula"
         alert("Vírgula já utilizada")
     }
     
